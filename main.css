@@ -1,0 +1,19 @@
+title {
+    color: blueviolet;
+    font-style: italic;
+}
+body {
+    background-color: turquoise;
+}
+li {
+    list-style: circle;
+}
+ul {
+    font-family: helvetica;
+}
+img {
+ height: 350px;
+ width: 350px;
+ border: solid 10px blueviolet;
+ border-radius: 0 100px 0 100px;
+}

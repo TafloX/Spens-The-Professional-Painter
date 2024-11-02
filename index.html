@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spens The Professional Painter</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Spens The Professional Painter</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="aboutMe">Hello! I'm a passionate painter specializing in residential and commercial properties in the Cape Winelands District, Paarl, Wellington, Franchhoek, Klein Drakenstein, Groot Drakenstein, Boland, Klapmuts, Malmesbury areas and surrounding areas. Customer satisfaction is of uttermost importance in the survival of my business. Having been in the construction industry for over 15 years with close to 10 years strictly in painting and waterproofing, I have built strong business partnerships with renowned artisans in tiling, electricity, plumbing, carpentry, bricklaying, plastering, etc. I have flexible pricing plans depending on site assessment. When painting outside, if need be, I highly recommend cleaning the gutters and the High pressure wash to expose all the problematic areas. Please note that in some residential setups, we might not be allowed to use the High pressure wash on asbestos. All the roof leaks will be waterproofed before any roof paintwork commences. I am more than happy to discuss with you the best recommendations to bring your property back to life at an affordable and flexible price. For your tailored home improvement solutions, please submit your information through the contact form on this page.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="C:\Users\Kiara\Pictures\Work photos\10072024_123609.jpg" alt="Painting 1">
+                <img src="C:\Users\Kiara\Pictures\Work photos\28032024_153127.jpg" alt="Painting 2">
+                <img src="C:\Users\Kiara\Pictures\Work photos\Amberg Art and Kitchen_05082024_152427.jpg" alt="Painting 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <p><em>Spencer</em><br>
+            +27 63 8727 349<br>
+            +27 74 371 4512<br>
+            Call or whatsapp on any of the numbers above.
+            </p>
+            <h3>Contact Form</h3>
+            <form id="contactForm">
+                <fieldset>
+                    <legend>Enter Your Personal Info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Write your name here" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" name="email" required><br>
+                    <label for="mobileNumber">Mobile No.:</label>
+                    <input type="int" placeholder="Mobile Number"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>How can we help you?</legend>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write your enquiry here..." name="message" required></textarea><br>
+                </fieldset>
+                <button onclck="submit()" type="submit">Submit</button>
+                <p id="submit"></p>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Zyaks Communications. All Rights Reserved.</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
